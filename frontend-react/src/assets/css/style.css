@@ -1,0 +1,36 @@
+body{
+    background-color: #212529;
+}
+
+#root * {
+    font-size: 10px;
+}
+.bg-light-dark{
+    background-color: #283035;
+}
+
+#root{
+    min-height: 100vh;
+}
+
+.app-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    padding: 1rem 0;
+}
+
+.header-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.footer {
+    margin-top: 0;
+}
