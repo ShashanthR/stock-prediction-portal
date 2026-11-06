@@ -1,7 +1,12 @@
+html,
+body,
+#root {
+    min-height: 100%;
+}
 body{
     background-color: #212529;
+    min-height: 100vh;
 }
-
 #root * {
     font-size: 10px;
 }
@@ -16,7 +21,9 @@ body{
 .app-shell {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    /* max-height: 100vh; */
+    /* overflow-y: auto; */
 }
 
 .main-content {
@@ -33,4 +40,5 @@ body{
 
 .footer {
     margin-top: 0;
+    padding:0;
 }
